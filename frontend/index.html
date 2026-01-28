@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Smart OCR Translator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Upload an Image for OCR</h2>
+
+        <form id="ocr-form">
+            <input type="file" id="file-input" accept="image/*">
+            <button type="submit">Upload & Process</button>
+        </form>
+
+        <div id="result-container">
+            <p id="status-message">Ready to upload.</p>
+            <p><strong>Text:</strong> <span id="extracted-text-display"></span></p>
+            <p><strong>Meaning:</strong> <span id="meaning-display"></span></p>
+            <p><strong>Pronunciation:</strong> <span id="pronunciation-status"></span></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
