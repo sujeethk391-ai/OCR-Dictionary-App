@@ -20,4 +20,10 @@ This project combines FastAPI (backend) and a simple web frontend to deliver a c
 - ⚡ FastAPI-based REST API  
 - 🖥️ Lightweight HTML/CSS/JS frontend  
 - 🔐 CORS-enabled backend  
+## 🛠️ Tech Stack
 
+- FastAPI
+- Tesseract OCR
+- HTML
+- CSS
+- JavaScript
